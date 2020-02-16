@@ -1,0 +1,40 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.menuList li:hover {
+    border-bottom: 1px solid red;
+}
+.header {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px solid gray;
+	align-items: center;
+}
+li {
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+a {
+    color: black;
+    letter-spacing: 0px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.search {
+	padding: 0;
+	margin-right: 50px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+ul {
+	display: flex;
+}
